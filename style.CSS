@@ -1,0 +1,332 @@
+  .admin{
+        display:flex;
+        justify-content:space-evenly;
+        background-color:#001f5c
+    }
+    .admin p span{
+      background-color:yellow;
+      padding: 10px;
+      border-radius: 50px;
+    }
+    .admin{
+      font-family:'Times New Roman', Times, serif;
+      font-size:larger;
+      font-style:normal;
+      font-weight: 200;
+    }
+    .Campus{
+      background-color:#001f5c;
+      padding: 0px;
+      font-size:large;
+      display:flex;
+    }
+    .header{
+      display: flex;
+    }
+    .about{
+      display:flex;
+      gap: 30px;
+      margin-left: 50px;
+      font-size:large;
+      font-family:'Times New Roman', Times, serif;
+      font-weight:200;
+      font-style: normal;
+    }
+    .campusAnnouncement{
+      width: 450px;
+      font-size:larger;
+      font-weight:200;
+      font-style:normal;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: crimson;
+    }
+    video{
+      width: 1700px;
+    }
+    .video-text{
+      position: absolute;
+      top: 50%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      width: 90%;
+    }
+    .video-text h3{
+      font-size: 20px;
+      margin-top: 800px;
+    }
+    .line{
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
+    .video-text h1{
+      font-size: 70px;
+      font-weight: bold;
+      margin-top: 300px;
+    }
+    .side-icons {
+     position: fixed;
+     right: 0;
+     top: 40%;
+     z-index: 100;
+    }
+    .icon-box{
+      width: 50px;
+      height: 50px;
+      background: #280b578e;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 5px solid white;
+    }
+    .icon-box img{
+      width: 25px;
+      height: 25px;
+      object-fit: contain;
+    }
+    .side-menu{
+      position: fixed;
+      right: 0;
+      top: 200px;
+      display: flex;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      background: #0078d7;
+      color: white;
+      text-decoration: none;
+      overflow: hidden;
+      transition: width 0.3s;
+      margin-bottom: 2px;
+    }
+    .side-menu:hover{
+      width: 220px;
+    }
+    .build{
+      color: yellow;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .Story-section{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 80px;
+      padding: 80px;
+    }
+    .left{
+      width: 20%;
+    }
+    .story{
+      width: 50%;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size:18px;
+      font-style:normal;
+      margin-left: 50px;
+    }
+    .left h1{
+      color:#003b9b;
+      font-size: 30px;
+      font-weight:500px;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-left: 100px;
+    }
+    .container{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .content{
+      width: 65%;
+    }
+    .announcement{
+      width: 50%;
+      margin-right:10px;
+      padding: 10px;
+      position: relative;
+      top:-480px;
+      color:rgb(20, 20, 20);
+      font-size:x-large;
+      font-weight:400;
+      font-family:Arial, Helvetica, sans-serif;
+      gap:10px;
+      padding:0px;
+      
+    }
+    .announcement h3{
+      color: #003b9b;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: 500px;
+      padding: -10px;
+    }
+    .announcement u{
+      color: blue;
+    }
+    .Readmore{
+      color:white;
+      background-color: blue;
+      padding:10px 20px;
+      border-radius: 20px;
+      border: none;
+    }
+    .Readmore:hover{
+      color: blue;
+      background-color: white;
+      border:darkblue;
+      transition: 1.7ms;
+
+    }
+    .Announcement{
+      width:30%;
+      font-size:14px;
+      line-height: 30px;
+      font-weight: 600;
+      color: rgb(70, 115, 240);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .n-stat-section{
+      width:100%;
+      background-color: rgb(6, 6, 59);
+      padding: 40px 20px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: -400px;
+      width: 100%;
+    }
+    .stat-box{
+      text-align: center;
+      color: white;
+      margin: 10px;
+    }
+    .stat-box h1{
+      font-size: 90px;
+      font-weight: bold;
+      margin-bottom:10px;
+    }
+    .stat-box p{
+      font-size: 50px;
+      font-weight: 200;
+    }
+    .stat-box h1{
+      font-size: 50px;
+    }
+    .stat-box p{
+      font-size: 30px;
+    }
+    .accredition{
+      color: blue;
+      font-size: larger;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    .acc-image{
+      width: 50%;
+      max-width: 1000px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    .Readmore{
+      color:white;
+      background-color: blue;
+      padding:10px 20px;
+      border-radius: 20px;
+      border: none;
+    }
+    .Readmore:hover{
+      color: blue;
+      background-color: white;
+      border:darkblue;
+      transition: 1.7ms;
+
+    }
+   .carousel{
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0;
+   }
+   .carousel-inner{
+    display: flex;
+    gap: 10px;
+    width: max-content;
+    animation:scroll 10s linear infinite;
+   }
+   .carousel-inner{
+    width: 180px;
+    height: 100px;
+    border-radius: 5px;
+   }
+   .carousel img{
+    width: 180px;
+    height: 100px;
+    border-radius: 100px;
+    flex-shrink: 0;
+   }
+   @keyframes scroll{
+    from{
+      transform: translateX(0);
+      opacity: 0;
+    }
+    to{
+      transform: translateX(-50%);
+      opacity: 1;
+    }
+   }
+   .government{
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: 100;
+   }
+   .footer{
+    background: linear-gradient(to right,#0d0d0d,#001f5c,#003b9b);
+    color: white;
+    padding: 40px 50px;
+    width: 100%;
+   }
+   .footer-Container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   }
+   .footer-box{
+    width: 30%;
+   }
+   .footer-box h3{
+    margin-bottom: 15px;
+    font-size: 24px;
+   }
+   .footer-box p,
+   .footer-box li{
+    margin-bottom: 10px;
+    font-size: 18px;
+   }
+   .footer-box a{
+    color:white;
+    text-decoration: none;
+   }
+   .footer-box a:hover{
+    text-decoration: underline;
+   }
+   .social-icons{
+     display: flex;
+     flex-direction: row;
+     justify-content:left;
+     align-items: center;
+   }
+   .social-icons img{
+    width: 50px;
+    height: 50px;
+   }
+   .map-box{
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+   }
+   .map-box iframe{
+    width: 50%;
+    height: 50%;
+   }
